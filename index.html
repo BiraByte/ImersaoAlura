@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Bíblico Infantil</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>   
+    </style>
+</head>
+<body>
+    <!-- Perguntas e opções do quiz -->
+    <div class="quiz-container minha-imagem" id="pergunta1">
+        <h2>Pergunta 1:</h2>
+        <p>Quem criou os céus e a terra?</p>
+        <div class="options-container">
+            <button class="option-button" data-value="a">Adão</button>
+            <button class="option-button" data-value="b">Deus</button>
+            <button class="option-button" data-value="c">Eva</button>
+        </div>
+        <div class="botoes-container"></div>
+        <button class="verificar-botao">Verificar Resposta</button>
+        <p class="feedback" id="feedback1"></p>
+        <button id="proximo-botao" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <div class="quiz-container  minha-imagem minha-imagem" id="pergunta2">
+        <h2>Pergunta 2:</h2>
+        <p>Qual foi a primeira profissão de Adão?</p>
+        <div class="options-container">
+            <button class="option-button" data-value="a">Pescador</button>
+            <button class="option-button" data-value="b">Agricultor</button>
+            <button class="option-button" data-value="c">Pastor</button>
+        </div>
+        <button class="verificar-botao">Verificar Resposta</button>
+        <p class="feedback" id="feedback2"></p>
+        <button id="proximo-botao" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <div class="quiz-container  minha-imagem" id="pergunta3">
+        <h2>Pergunta 3:</h2>
+        <p>Qual fruta proibida Adão e Eva comeram?</p>
+        <div class="options-container">
+            <button class="option-button" data-value="a">Maçã</button>
+            <button class="option-button" data-value="b">Pêra</button>
+            <button class="option-button" data-value="c">Fruto do conhecimento do bem e do mal</button>
+        </div>
+        <button class="verificar-botao">Verificar Resposta</button>
+        <p class="feedback" id="feedback3"></p>
+        <button id="proximo-botao" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <div class="quiz-container minha-imagem" id="pergunta4">
+        <h2>Pergunta 4:</h2>
+        <p>Qual animal entrou na arca de Noé?</p>
+        <div class="options-container">
+            <button class="option-button" data-value="a">Leão</button>
+            <button class="option-button" data-value="b">Girafa</button>
+            <button class="option-button" data-value="c">Todos os animais puros</button>
+        </div>
+        <button class="verificar-botao">Verificar Resposta</button>
+        <p class="feedback" id="feedback4"></p>
+        <button id="proximo-botao" style="display: none;">Próxima Pergunta</button>
+    </div>
+
+    <div class="quiz-container minha-imagem" id="pergunta5">
+        <h2>Pergunta 5:</h2>
+        <p>Qual animal Deus usou para testar a fé de Abraão?</p>
+        <div class="options-container">
+            <button class="option-button" data-value="a">Cordeiro</button>
+            <button class="option-button" data-value="b">Filho Isaac</button>
+            <button class="option-button" data-value="c">Boi</button>
+        </div>
+        <button class="verificar-botao">Verificar Resposta</button>
+        <p class="feedback" id="feedback5"></p>
+        <button id="proximo-botao" style="display: none;">Próxima Pergunta</button>
+        <button id="resultado-botao" style="display: none;">Mostrar Resultados</button>
+    </div>
+
+    
+
+    <!-- Container para mostrar os resultados -->
+    <div class="result-container" id="resultado">
+        <h2>Resultado do Quiz</h2>
+        <p id="resultado-msg"></p>
+        <div id="explicacao"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

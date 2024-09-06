@@ -1,0 +1,147 @@
+/* Estilos gerais */
+body   body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quiz-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.quiz-container h2 {
+    margin-top: 0;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.option-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.option-button:hover {
+    background-color: #2980b9;
+}
+
+.option-button.selected {
+    border: 2px solid #fff;
+    background-color: #2980b9;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    display: inline-block; /* Alinha os botões lado a lado se necessário */
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.feedback {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.correct {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+#resultado {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#resultado-msg {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#explicacao {
+    font-size: 16px;
+}
+.botoes-container {
+    display: flex;
+    justify-content: space-between; /* Alinha os botões à esquerda e à direita */
+    margin-top: 10px; /* Espaço acima dos botões */
+}
+.minha-imagem {
+    background-image: url(imagens/infantil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    aspect-ratio: auto 800 / 800; /* Faz com que a imagem cubra a altura total da visualização */
+    
+}   
+#proximo-botao {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointerre;
+    font-size: 16px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+#proximo-botao:hover {
+    background-color: #e0a800;
+}
